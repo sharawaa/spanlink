@@ -1,6 +1,13 @@
 @charset "utf-8";
 @import url(fonts.css);
 
+body{
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.674);
+}
+main{
+    min-height: 100vh;
+}
 /*-------------------------------------------------------------------
     파일정의: Main page style
     순서:    Contents > Main top(banner) > Aside
@@ -9,6 +16,15 @@
 /* contents start */
 
     /* main top start (banner) */
+    .conts1{ height: 969px; background-image:url('/assets/img/image/mainSlider1.png') ; background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conts1_inn h1{font-size: 46px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: bold; font-family: "Gmarket Sans TT FBold"; text-align: center; max-width: 936px;}
+
+    .conts2{height: 969px; background-color: #ffffff;}
+
     /* main top end (banner) */
 
 /* contents end */
