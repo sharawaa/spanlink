@@ -20,10 +20,10 @@ const elementsToAnimate = [
       y,
       scrollTrigger: {
         trigger: element,
-        start: 'top center',
+        start: 'top bottom',
         end: 'top center',
         scrub: 4,
-        // markers: true
+        markers: true
       }
     });
   });
@@ -36,7 +36,7 @@ const elementsToAnimate = [
         start: 'top 80%',
         end: 'bottom center',
         scrub: 4,
-        // markers: true
+        markers: true
       }
     });
   });

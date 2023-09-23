@@ -16,6 +16,8 @@ main{
 /* contents start */
 
     /* main top start (banner) */
+    /* .conts1{hei} */
+
     .carousel-caption {margin-bottom: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
     .carousel-caption h1{font-size: 46px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: bold; font-family: "Gmarket Sans TT FBold"; text-align: center; max-width: 936px;}
 
