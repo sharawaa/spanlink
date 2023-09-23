@@ -16,18 +16,51 @@ main{
 /* contents start */
 
     /* main top start (banner) */
-    .conts1{ height: 969px; background-image:url('/assets/img/image/mainSlider1.png') ; background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .conts1_inn h1{font-size: 46px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: bold; font-family: "Gmarket Sans TT FBold"; text-align: center; max-width: 936px;}
+    .carousel-caption {margin-bottom: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .carousel-caption h1{font-size: 46px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: bold; font-family: "Gmarket Sans TT FBold"; text-align: center; max-width: 936px;}
 
-    .conts2{height: 969px; background-color: #ffffff;}
+    .conts2{height: 969px; background-color: #f8f8f8; display: flex; align-items: center;}
+    .download_inn{display: flex; justify-content: space-between; align-items: center;}
+    .download_text{height: 322px;width: 424px; display: flex; flex-direction: column; justify-content: space-between;}
+    .download_text h1{font-size: 44px; letter-spacing: -2px; line-height: 60px; text-transform: uppercase; color: #000000; font-weight: 500; font-family: "Gmarket Sans TT FMedium";}
+    .download_imgs{display: flex; align-items: center;}
+    .download_buttons{display: flex; gap: 12px;}
+    .b_button{display: flex; align-items: center; justify-content: center; gap: 15px; width: 206px; height: 65px; border: 1px solid #888888; border-radius: 30px;}
+    .google_play{background: url('/assets/img/icon/playStore.png') no-repeat; padding: 20px;}
+    .app_store{background: url('/assets/img/icon/appStore.png') no-repeat; padding: 20px;}
+    .gsap_image1{border-radius:30px ; box-shadow:  0px  0px 20px 20px #888888;}
+    .gsap_image2{border-radius:30px ; box-shadow:  0px  0px 50px 20px #888888; margin-left: -35px; z-index: 1;}
 
+    /* conts3 */
+    .conts3{height: 969px; background-image: url('/assets/img/image/court.png');background-size: cover; display: flex; align-items: center;}
+    .service_inn{display: flex; flex-direction: column; align-items: center;  gap: 120px;}
+    .service_title{font-size: 46px; letter-spacing: -2px; line-height: 64px; text-transform: uppercase; color: #ffffff; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; text-align: center;}
+    .service_body{width: 100%; display: flex; justify-content: space-between;}
+    .service_child{max-width: 622px; width: 45%; height: 497px; background-color: #83c131b1; display: flex; flex-direction: column; align-items: center; justify-content: space-around; padding: 97px 55px;}
+    .service_child h1{font-size: 36px; letter-spacing: -2px; line-height: 64px; color: #ffffff; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; text-align: center;}
+    .service_child p{font-size: 20px; letter-spacing: -1px; line-height: 38px; text-transform: uppercase; color: #ffffff; font-weight: 300; font-family: "Noto Sans KR"; text-align: center;}
+    .b_btn_service{display: flex; align-items: center; justify-content: center;padding-top: 10px; border: 1px solid #ffffff; border-radius: 30px; width: 158px; height: 55px; gap: 29px;}
+    .b_btn_service p{font-size: 14px; letter-spacing: 0px; line-height: 67px; color: #ffffff; font-weight: 300; font-family: "Noto Sans KR";}
+    .arrow_btn{background: url('/assets/img/icon/arrow.png') no-repeat; padding: 10px;}
+    /* conts4 */
+    .conts4{height: 969px; position: relative; display: flex; align-items: center; background-color: #ffffff;}
+    .ball_inn{ display: flex; justify-content: end; align-items: center; }
+    .ball_image{height: 969px; position: absolute; background: url('/assets/img/image/레이어\ 75.png') no-repeat; width: 100%}
+    .ball_text h2{font-size: 44px; letter-spacing: -2px; line-height: 60px; text-transform: uppercase; color: #000000; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; width: 530px;}
+    /* conts5 */
+    .conts5{height: 969px; background: url('/assets/img/image/swimming.png') no-repeat;background-size: cover; display: flex; align-items: center; justify-content: center;}
+    .category_inn{display: flex; flex-direction: column; align-items: center;}
+    .category_inn h1{font-size: 46px; letter-spacing: -2px; line-height: 64px; text-transform: uppercase; color: #ffffff; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; text-align: center;}
+    .category_inn p{opacity: 0.702; font-size: 20px; letter-spacing: 0px; line-height: 38px; text-transform: uppercase; color: #ffffff; font-weight: 300; font-family: "Noto Sans KR"; text-align: center;}
+    .category_buttons{display: flex; gap: 60px;}
+    .category_b_btn{height: 174px; width: 174px; border-radius: 50%; background-color: #ffffff17; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+    .t_shirt{background: url('/assets/img/icon/tshirt.png') no-repeat;padding: 35px;}
+    .tennis{background: url('/assets/img/icon/tennis.png') no-repeat;padding: 35px;}
+    .fitnes{background: url('/assets/img/icon/hand.png') no-repeat;padding: 35px;}
+    .run{background: url('/assets/img/icon/runningTrack.png') no-repeat;padding: 35px;}
     /* main top end (banner) */
 
 /* contents end */
 
 /* aside.floating start */
-/* aside.floating end */
+/* aside.floating end */ 
