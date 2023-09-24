@@ -26,6 +26,7 @@
 
 }
 @media screen and (max-width: 1000.98px) {
+    .footer{height: 225px;}
     .footer_inn{flex-direction: column; gap: 20px; align-items: flex-start;}
 }
 @media screen and (max-width: 767.98px) {
@@ -38,8 +39,8 @@
     .header_logo{display: none;}
     .header_lists{padding: 10px;}
     .header_list_item{border-right: 1px solid #ffffff; padding-right: 5px;}
-    .header_list_item a{font-size: 16px; padding-right: 5px;}
-.footer{height: 255px;}
+    .header_list_item a{font-size: 16px; padding-right: 5px;line-height: 16px;}
+.footer{height: 355px;}
 .footer_inn{gap: 10px}
 /* .header_logo{display: none;} */
 .footer_left div{flex-direction: column;}

@@ -9,11 +9,11 @@
 /* common */
 
 /* Pages contents css */
-.conts{min-height: 100vh;}
-.conts1{background: url('/assets/img/image/sub_main.png') no-repeat; height: 561px; display: flex;align-items: center;justify-content: center; background-size: cover;}
-.conts1 h1{font-size: 44px; letter-spacing: -2px; line-height: 44px; text-transform: uppercase; color: #ffffff; font-weight: 700; font-family: "Noto Sans KR"; text-align: center;}
+.sub_conts{min-height: 100vh;}
+.sub_conts1{background: url('/assets/img/image/sub_main.png') no-repeat; height: 561px; display: flex;align-items: center;justify-content: center; background-size: cover;}
+.sub_conts1 h1{font-size: 44px; letter-spacing: -2px; line-height: 44px; text-transform: uppercase; color: #ffffff; font-weight: 700; font-family: "Noto Sans KR"; text-align: center;}
 
-.conts2{max-width: 1481px; width: 95%; background-color: #ffffff; min-height: 80vh; margin: -119px auto 0; z-index: 100; }
+.sub_conts2{max-width: 1481px; width: 95%; background-color: #ffffff; min-height: 80vh; margin: -119px auto 0; z-index: 100; }
 .sub_header{height: 119px; background-color: #ffffff; display: flex; justify-content: space-between;align-items: flex-end;}
 .sub_header h2{ font-size: 44px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #333333; font-weight: 700; font-family: "Noto Sans KR";}
 .lists{display: flex;gap: 26px;}

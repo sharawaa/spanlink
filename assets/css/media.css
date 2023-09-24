@@ -10,20 +10,46 @@
 
 }
 @media screen and (max-width: 1000.98px) {
-
+/* main page */
+.carousel-caption {margin-bottom: 0px;}
+.carousel-caption h1{font-size: 36px;line-height: 36px; }
+.category_buttons{gap: 10px;}
+.download_inn{flex-direction: column; align-items: center; gap: 40px; padding: 20px;}
+/* sub page */
     .sub_body{margin: 50px auto 50px;}
     .year_text p{font-size: 18px; line-height: 20px;}
 }
 @media screen and (max-width: 767.98px) {
-    .conts1{height: 460px;}
+
+/* sub page */
+    .sub_conts1{height: 460px;}
     .sub_header h2{font-size: 26px; line-height: 27px;}
 }
 @media screen and (max-width: 575.98px) {
     
 }
 @media screen and (max-width: 483px) {
+/* main page */
+.carousel-caption h1{font-size: 16px;line-height: 16px; }
+
+
+.download_text h1{font-size: 24px;}
+.download_buttons{flex-direction: column; align-items: center;}
+
+.service_body{flex-direction: column; gap: 20px;}
+.service_child{width: 100%;}
+
+.ball_inn{width: 100%; justify-content: center;}
+.ball_text{text-align: center;}
+.ball_text h2{font-size: 32px;}
+
+.conts5{padding: 20px;;}
+.category_buttons{flex-direction: column; gap: 15px;}
+
+
+/* sub page */
     .span_link{width: 100%;}
-    .conts1{height: 360px;}
+    .sub_conts1{height: 360px;}
     .list_item a{font-size: 16px;}
     .sub_body{flex-direction: column; margin: 50px auto 50px;}
     .chronological_order{width: 100%;}
