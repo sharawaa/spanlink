@@ -4,11 +4,11 @@
 /*------------------------------------------------------------------- 파일정의: Common css
     순서:    Header > table > list > form ... > Footer 
 -------------------------------------------------------------------*/
-.container{max-width: 1320px; margin: auto;}
+.container{max-width: 1320px; width: 90%; margin: auto;}
 /* header start */
 .head{display: flex; justify-content: center; margin: auto;}
 .header_inn{position: absolute; z-index: 100; width: 100%; height: 82px; display: flex; justify-content: space-between; align-items: center;} 
-.header_logo{background : url('/assets/img/icon/logo.png') no-repeat center; padding: 20px 80px;}
+.header_logo{ background : url('/assets/img/icon/logo.png') no-repeat center; padding: 20px 80px;}
 .header_lists{width: 512px; display: flex; justify-content: space-between;} 
 .header_list_item a{font-size: 20px; letter-spacing: 0px; line-height: 30px; text-transform: uppercase; color: #ffffff; font-weight: 500; font-family: "Noto Sans KR"; text-align: right;} 
 
@@ -22,3 +22,26 @@
 .footer_left div p{font-size: 14px; letter-spacing: 0px; line-height: 20px; text-transform: uppercase; color: #8a8a8a; font-weight: 300; font-family: "Noto Sans KR";}
 .footer_right p {font-size: 14px; letter-spacing: 0px; line-height: 20px; text-transform: uppercase; color: #8a8a8a; font-weight: 300; font-family: "Noto Sans KR";}
 /* footer end */
+@media screen and (max-width: 1300.98px) {
+
+}
+@media screen and (max-width: 1000.98px) {
+    .footer_inn{flex-direction: column; gap: 20px; align-items: flex-start;}
+}
+@media screen and (max-width: 767.98px) {
+
+}
+@media screen and (max-width: 575.98px) {
+
+}
+@media screen and (max-width: 483px) {
+    .header_logo{display: none;}
+    .header_lists{padding: 10px;}
+    .header_list_item{border-right: 1px solid #ffffff; padding-right: 5px;}
+    .header_list_item a{font-size: 16px; padding-right: 5px;}
+.footer{height: 255px;}
+.footer_inn{gap: 10px}
+/* .header_logo{display: none;} */
+.footer_left div{flex-direction: column;}
+
+}

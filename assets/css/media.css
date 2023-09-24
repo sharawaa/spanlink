@@ -11,13 +11,24 @@
 }
 @media screen and (max-width: 1000.98px) {
 
+    .sub_body{margin: 50px auto 50px;}
+    .year_text p{font-size: 18px; line-height: 20px;}
 }
 @media screen and (max-width: 767.98px) {
-
+    .conts1{height: 460px;}
+    .sub_header h2{font-size: 26px; line-height: 27px;}
 }
 @media screen and (max-width: 575.98px) {
-
+    
 }
 @media screen and (max-width: 483px) {
-
+    .span_link{width: 100%;}
+    .conts1{height: 360px;}
+    .list_item a{font-size: 16px;}
+    .sub_body{flex-direction: column; margin: 50px auto 50px;}
+    .chronological_order{width: 100%;}
+    .border_image{width: 239px; height: 286px;}
+    .tennis_image{width: 100%; height: 291px;}
+    .chronological_order{margin-top: 200px;}
+    .year_text p{font-size: 16px; }
 }
