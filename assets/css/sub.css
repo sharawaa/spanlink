@@ -1,5 +1,32 @@
 @charset "utf-8";
 @import url(fonts.css);
+@import url(/fonts/);
+@font-face {
+    font-family: 'Gmarket Sans TT FBold';
+    src: url(/fonts/GmarketSansBold.otf);
+}
+@font-face {
+    font-family: 'Gmarket Sans TT FBold';
+    src: url(/fonts/GmarketSansLight.otf);
+}
+@font-face {
+    font-family: 'Gmarket Sans TT FBold';
+    src: url(/fonts/GmarketSansMedium.otf);
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url(/fonts/NotoSans-regular.ttf);
+}
+:root {
+    --bg-color: #0b1d26;
+    --white: #fff;
+    --black: #000;
+    --white-5: #ffffff80;
+    --white-1: rgb(255, 255, 255, 0.1);
+    --gold: #fbd784;
+    --font1: 'Gmarket Sans TT FBold';
+    --font2: 'Noto Sans KR'
+  }
 
 /*-------------------------------------------------------------------
     파일정의: Pages contents css
@@ -11,23 +38,31 @@
 /* Pages contents css */
 .sub_conts{min-height: 100vh;}
 .sub_conts1{background: url('/assets/img/image/sub_main.png') no-repeat; height: 561px; display: flex;align-items: center;justify-content: center; background-size: cover;}
-.sub_conts1 h1{font-size: 44px; letter-spacing: -2px; line-height: 44px; text-transform: uppercase; color: #ffffff; font-weight: 700; font-family: "Noto Sans KR"; text-align: center;}
+.sub_conts1 h1{position: absolute; font-size: 52px; letter-spacing: -3px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: 700;  font-family: var(--font2); text-align: center;}
+.relitive_wrap{position: relative; height: 440px; width: 95%;}
+.social_list_wrap{position: absolute; right: 0; bottom: 0;}
+.social_list_wrap .lists{display: flex; height: 141px; flex-direction: column; align-items: center; justify-content: space-between; gap: 11px;}
+.list_item_social{}
+.facebook{background: url('/assets/img/icon/facebook.png') no-repeat; padding: 19px 27px;}
+.twitter{background: url('/assets/img/icon/twitter.png') no-repeat; padding: 21px 27px;}
+.insta{background: url('/assets/img/icon/insta.png') no-repeat; padding: 18px 27px;}
 
-.sub_conts2{max-width: 1481px; width: 95%; background-color: #ffffff; min-height: 80vh; margin: -119px auto 0; z-index: 100; }
+.sub_conts2{max-width: 1481px; width: 85%; background-color: #ffffff; min-height: 80vh; margin: -119px auto 0; z-index: 100;}
 .sub_header{height: 119px; background-color: #ffffff; display: flex; justify-content: space-between;align-items: flex-end;}
-.sub_header h2{ font-size: 44px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #333333; font-weight: 700; font-family: "Noto Sans KR";}
+.sub_header h2{ font-size: 44px; letter-spacing: -2px; line-height: 40px; text-transform: uppercase; color: #333333; font-weight: 700; font-family: var(--font2);}
 .lists{display: flex;gap: 26px;}
-.list_item a{font-size: 18px; letter-spacing: -1px; line-height: 20px; text-transform: uppercase; color: #666666; font-weight: 300; font-family: "Noto Sans KR"; text-align: right;}
-.sub_body{width: 95%;  margin: 110px auto 160px; display: flex;}
+.active a{color: #000000 !important; padding-bottom: 3px; font-weight: bold !important; border-bottom: 2px solid #000;}
+.list_item a{font-size: 18px; letter-spacing: -1px; line-height: 30px; text-transform: uppercase; color: #666666; font-weight: 300; font-family: var(--font2); text-align: right;}
+.sub_body{width: 95%;  margin:  auto ; padding-top:110px ;padding-bottom: 160px;; display: flex;}
 .span_link{width: 50%;}
 .green_title{color: #66c200 !important;}
-.span_link h2{max-width: 455px; width: 90%; font-size: 40px; letter-spacing: -2px; line-height: 56px; text-transform: uppercase; color: #000000; font-weight: bold; font-family: "Gmarket Sans TT FBold";}
-.images{margin-top: 70px; max-width: 574px; width: 95%; position: relative; display: flex;flex-direction: column; align-items: baseline;}
+.span_link h2{ width: 90%; font-size: 40px; letter-spacing: -2px; line-height: 56px; text-transform: uppercase; color: #000000; font-weight: bold; font-family: var(--font1);}
+.images{margin-top: 55px; max-width: 574px; width: 95%; position: relative; display: flex;flex-direction: column; align-items: baseline;}
 .border_image{width: 339px; height: 386px;border: 7px solid #ffffff; position: absolute; right: 0ch; top: 147px;}
-.chronological_order{width: 50%; border-left: 1px solid #888;}
+.chronological_order{width: 50%; border-left: 1px solid #888; margin-top: 18px;}
 .year{display: flex; gap: 43px;}
 .dot{background: url('/assets/img/icon/subDot.png')no-repeat;padding: 8px; margin-left: -7px;}
 .year_text{display: flex; flex-direction: column;}
-.year_text h4{margin-top: -5px;margin-bottom: 30px; font-size: 26px; letter-spacing: -1px; line-height: px; text-transform: uppercase; color: #333333; font-weight: bold; font-family: "Gmarket Sans TT FBold";}
-.year_text p{font-size: 18px; letter-spacing: -1px; line-height: 35px; text-transform: uppercase; color: #333333; font-weight: 400; font-family: "Noto Sans KR";}
+.year_text h4{margin-top: -5px;margin-bottom: 25px; font-size: 26px; letter-spacing: -1px; line-height: px; text-transform: uppercase; color: #333333; font-weight: bold; font-family: var(--font1);}
+.year_text p{font-size: 18px; letter-spacing: -1px; line-height: 35px; text-transform: uppercase; color: #333333; font-weight: 400; font-family: var(--font2);}
 
