@@ -17,11 +17,11 @@ main{
 
     /* main top start (banner) */
     /* .conts1{hei} */
-
+    .conts{overflow-y: auto; scroll-snap-type: y mandatory; transition: 2s;}
     .carousel-caption {margin-bottom: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
     .carousel-caption h1{font-size: 46px; letter-spacing: -2px; line-height: 70px; text-transform: uppercase; color: #ffffff; font-weight: bold; font-family: "Gmarket Sans TT FBold"; text-align: center; max-width: 936px;}
 
-    .conts2{min-height: 969px; background-color: #f8f8f8; display: flex; align-items: center;}
+    .conts2{scroll-snap-align: start; min-height: 100vh; background-color: #f8f8f8; display: flex; align-items: center;}
     .download_inn{display: flex; justify-content: space-between; align-items: center;}
     .download_text{height: 322px;max-width: 424px; width: 90%; display: flex; flex-direction: column; justify-content: space-between;}
     .download_text h1{font-size: 44px; letter-spacing: -2px; line-height: 60px; text-transform: uppercase; color: #000000; font-weight: 500; font-family: "Gmarket Sans TT FMedium";}
@@ -34,7 +34,7 @@ main{
     .gsap_image2{border-radius:30px ; box-shadow:  0px  0px 50px 10px #888888; margin-left: -35px; z-index: 1;}
 
     /* conts3 */
-    .conts3{min-height: 969px; background-image: url('/assets/img/image/court.png');background-size: cover; display: flex; align-items: center;}
+    .conts3{scroll-snap-align: start;min-height: 100vh; background-image: url('/assets/img/image/court.png');background-size: cover; display: flex; align-items: center;}
     .service_inn{display: flex; flex-direction: column; align-items: center;  gap: 120px;}
     .service_title{font-size: 46px; letter-spacing: -2px; line-height: 64px; text-transform: uppercase; color: #ffffff; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; text-align: center;}
     .service_body{width: 100%; display: flex; justify-content: space-between;}
@@ -45,12 +45,12 @@ main{
     .b_btn_service p{font-size: 14px; letter-spacing: 0px; line-height: 67px; color: #ffffff; font-weight: 300; font-family: "Noto Sans KR";}
     .arrow_btn{background: url('/assets/img/icon/arrow.png') no-repeat; padding: 10px;}
     /* conts4 */
-    .conts4{height: 969px; position: relative; display: flex; align-items: center; background-color: #ffffff;}
+    .conts4{scroll-snap-align: start; min-height: 100vh; position: relative; display: flex; align-items: center; background-color: #ffffff;}
     .ball_inn{ display: flex; justify-content: end; align-items: center; z-index: 100;}
     .ball_image{height: 969px; position: absolute; background: url('/assets/img/image/ball.png') no-repeat; width: 100%}
     .ball_text h2{font-size: 44px; letter-spacing: -2px; line-height: 60px; text-transform: uppercase; color: #000000; font-weight: 500; font-family: "Gmarket Sans TT FMedium";width: 90%; max-width: 530px;}
     /* conts5 */
-    .conts5{min-height: 969px; background: url('/assets/img/image/swimming.png') no-repeat;background-size: cover; display: flex; align-items: center; justify-content: center;}
+    .conts5{scroll-snap-align: start; min-height: 100vh; background: url('/assets/img/image/swimming.png') no-repeat;background-size: cover; display: flex; align-items: center; justify-content: center;}
     .category_inn{display: flex; flex-direction: column; align-items: center;}
     .category_inn h1{font-size: 46px; letter-spacing: -2px; line-height: 64px; text-transform: uppercase; color: #ffffff; font-weight: 500; font-family: "Gmarket Sans TT FMedium"; text-align: center;}
     .category_inn p{opacity: 0.702; font-size: 20px; letter-spacing: 0px; line-height: 38px; text-transform: uppercase; color: #ffffff; font-weight: 300; font-family: "Noto Sans KR"; text-align: center;}
