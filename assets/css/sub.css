@@ -29,7 +29,6 @@
 .relitive_wrap{position: relative; height: 440px; width: 95%;}
 .social_list_wrap{position: absolute; right: 0; bottom: 0;}
 .social_list_wrap .lists{display: flex; height: 141px; flex-direction: column; align-items: center; justify-content: space-between; gap: 11px;}
-.list_item_social{}
 .facebook{background: url('/assets/img/icon/facebook.png') no-repeat; padding: 19px 27px;}
 .twitter{background: url('/assets/img/icon/twitter.png') no-repeat; padding: 21px 27px;}
 .insta{background: url('/assets/img/icon/insta.png') no-repeat; padding: 18px 27px;}
